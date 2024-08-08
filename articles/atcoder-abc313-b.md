@@ -5,9 +5,10 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [atcoder, python]
 published: true
 ---
-今回は，AtCoder Beginner Contest 313 B問題を解いた際の考え方に関するメモを残しておきます．
+今回は，AtCoder Beginner Contest 313 B 問題を解いた際の考え方に関するメモを残しておきます．
 
-# [Who is Saikyo?](https://atcoder.jp/contests/abc313/tasks/abc313_b)
+### [Who is Saikyo?](https://atcoder.jp/contests/abc313/tasks/abc313_b)
+https://atcoder.jp/contests/abc313/tasks/abc313_b
 
 ## 回答例
 ```python
@@ -17,7 +18,6 @@ for _ in range(M):
     info_strength.append(list(map(int, input().split())))
 
 s = [0] * N
-# print(s)
 for i in range(M):
     s[info_strength[i][1] - 1] += 1
 
