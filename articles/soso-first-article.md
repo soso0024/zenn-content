@@ -16,8 +16,26 @@ published: true
 自分は，一回の学習で理解できないと諦めてしまう癖があるので，その点を改善したいと思いました．
 また，「理解する」ということに時間をかけることで，自分の知識が深まるということも学びました．
 
-# zennをgithubと連携する際に使用した記事
+# zennをgithubと連携する際につまづいた点
+brewでnode.jsをインストール後，node -vでバージョンを確認すると，バージョンが最新のものになっていなかった．
+そのため，下記のコマンドを実行して，`node@20`の実行ファイルのパスを通した．
+```
+echo 'export PATH="/opt/homebrew/opt/node@20/bin:$PATH"' >> ~/.zshrc
+echo 'export LDFLAGS="-L/opt/homebrew/opt/node@20/lib"' >> ~/.zshrc
+echo 'export CPPFLAGS="-I/opt/homebrew/opt/node@20/include"' >> ~/.zshrc
+```
+設定を反映させるために，下記のコマンドを実行した．
+```
+source ~/.zshrc
+```
+確認のために，node -vでバージョンを確認した．
+```
+node -v
+```
+
+# 参考記事
 - [GitHubリポジトリでZennのコンテンツを管理する](https://zenn.dev/zenn/articles/connect-to-github)
 - [Zenn CLIをインストールする](https://zenn.dev/zenn/articles/install-zenn-cli)
 - [Zenn CLIで記事・本を管理する方法](https://zenn.dev/zenn/articles/zenn-cli-guide)
-- [zenn-docs](https://github.com/zenn-dev/zenn-docs)
+- [Zenn Docs Github](https://github.com/zenn-dev/zenn-docs)
+- [Zenn Markdown記法](https://zenn.dev/zenn/articles/markdown-guide)
