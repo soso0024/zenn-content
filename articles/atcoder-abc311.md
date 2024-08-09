@@ -8,6 +8,7 @@ published: true
 今回は，AtCoder Beginner Contest 311 B 問題を解いた際の考え方に関するメモを残しておきます．
 
 ### [Vacation Together](https://atcoder.jp/contests/abc311/tasks/abc311_b)
+https://atcoder.jp/contests/abc311/tasks/abc311_b
 
 ## 自分の回答
 ```python
