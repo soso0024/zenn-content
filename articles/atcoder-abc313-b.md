@@ -10,7 +10,7 @@ published: true
 ### [Who is Saikyo?](https://atcoder.jp/contests/abc313/tasks/abc313_b)
 https://atcoder.jp/contests/abc313/tasks/abc313_b
 
-## 回答例
+## 自分の回答
 ```python
 N, M = map(int, input().split())
 info_strength = []
