@@ -1,5 +1,5 @@
 ---
-title: "Vertival Writing"
+title: "AtCoder - Vertival Writing"
 emoji: "✨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [atcoder, python]

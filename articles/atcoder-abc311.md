@@ -1,5 +1,5 @@
 ---
-title: "Vacation Together"
+title: "AtCoder - Vacation Together"
 emoji: "✨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [atcoder, python]

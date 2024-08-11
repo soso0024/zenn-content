@@ -1,5 +1,5 @@
 ---
-title: "Who is Saikyo?"
+title: "AtCoder - Who is Saikyo?"
 emoji: "✨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [atcoder, python]
