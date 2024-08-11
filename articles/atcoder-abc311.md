@@ -5,7 +5,7 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [atcoder, python]
 published: true
 ---
-今回は，AtCoder Beginner Contest 311 B 問題を解いた際の考え方に関するメモを残しておきます．
+今回は，AtCoder Beginner Contest 311 B 問題を解いた際につまずいたポイントに関するメモを残しておきます．
 
 ### [Vacation Together](https://atcoder.jp/contests/abc311/tasks/abc311_b)
 https://atcoder.jp/contests/abc311/tasks/abc311_b
