@@ -71,5 +71,5 @@ https://typescriptbook.jp/reference/generics
 
 - props: 親コンポーネント子コンポーネントへ値を渡すための仕組み
 - state: 各コンポーネントごとに持つ，コンポーネントの状態を管理する仕組み
-  ![](/images/intern-huckson-mynav/proprs_state.JPG)
+  ![](/images/intern-huckson-mynav/proprs_state.jpg)
   引用：https://qiita.com/rio_threehouse/items/7632f5a593cf218b9504
