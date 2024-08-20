@@ -2,7 +2,7 @@
 title: "VSCode - Format Notebook"
 emoji: "🆚"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["vscode", "notebook", "python", "jupyter", "jupyter-notebook", "ipynb"]
+topics: ["vscode", "notebook", "python", "jupyter", "ipynb"]
 published: true
 ---
 
@@ -13,4 +13,4 @@ vscode でノートブック(.ipynb)を使う際に，オートフォーマッ�
 2. 検索バーに `format notebook` と入力
 3. Formatter を選択
 4. `Format on Save` にチェックを入れる
-   ![image of vscode settings](../images/tips-vscode-notebook/vscode_setting.png)
+   ![image of vscode settings](/images/tips-vscode-notebook/vscode_setting.png)
