@@ -6,6 +6,8 @@ topics: ["book"]
 published: true
 ---
 
+![](/images/who-moved-my-cheese/チーズはどこへ消えた？.jpg)
+
 ## なぜこの本を読もうと思ったのか
 
 現在就職活動中で，自己分析が必要だと感じたため．
