@@ -6,9 +6,7 @@ topics: ["book"]
 published: true
 ---
 
-<!-- ![](/images/who-moved-my-cheese/チーズはどこへ消えた？.jpg) -->
-
-<img src="/images/who-moved-my-cheese/チーズはどこへ消えた？.jpg" width="300px">
+![](/images/who-moved-my-cheese/チーズはどこへ消えた？.jpg)
 
 ## なぜこの本を読もうと思ったのか
 
