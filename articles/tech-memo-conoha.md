@@ -1,7 +1,7 @@
 ---
 title: "ConoHa使ってSSH接続しただけ"
 emoji: "🍃"
-type: "idea" # tech: 技術記事 / idea: アイデア
+type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["ConoHa", "SSH", "VPS"]
 published: true
 ---
