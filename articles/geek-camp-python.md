@@ -1,7 +1,7 @@
 ---
 title: "Pythonの深淵に触れる"
 emoji: "🐍"
-type: "idea" # tech: 技術記事 / idea: アイデア
+type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Python", "GeekCamp"]
 published: true
 ---
