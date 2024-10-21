@@ -63,6 +63,10 @@ Output:
 223 (Expected Output)
 ```
 
+:::details 解説
+![](/images/atcoder-abc373-b/solution.png)
+:::
+
 ## つまずいたところ
 
 - ord 関数の使い方がわからなかった．
