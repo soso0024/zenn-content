@@ -1,5 +1,5 @@
 ---
-title: "静的ウェブサイトをLocalStackを使用して作成する"
+title: "LocalStackを使用して静的ウェブサイトを作成する"
 emoji: "🚀"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["aws", "localstack", "s3"]
@@ -9,7 +9,7 @@ published: true
 
 ## TL;DR
 
-今回は、LocalStack のインストール方法と、S3 を使用して静的ウェブサイトを作成する方法を紹介します。
+今回は、LocalStack のインストール方法と、Local Stack で S3 を使用して静的ウェブサイトを作成する方法を紹介します。
 
 <!-- 後半の記事では，Terraform を使用して Infrastructure as Code で構築する方法を紹介します。 -->
 
