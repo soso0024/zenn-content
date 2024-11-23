@@ -97,10 +97,10 @@ cd s3-static-website-localstack
   <head>
     <meta http-equiv="Content-Type" content="text/html" />
     <meta charset="utf-8" />
-    <title>Static Website</title>
+    <title>静的ウェブサイト</title>
   </head>
   <body>
-    <p>Static Website deployed locally over S3 using LocalStack</p>
+    <p>LocalStackを使用してS3経由でローカルにデプロイされた静的ウェブサイト</p>
   </body>
 </html>
 ```
@@ -117,7 +117,7 @@ S3 は HTTP 4XX エラーコードに対してのみ、`error.html` のファイ
     <title>404</title>
   </head>
   <body>
-    <p>Something is amiss.</p>
+    <p>何かがおかしいのだ</p>
   </body>
 </html>
 ```
