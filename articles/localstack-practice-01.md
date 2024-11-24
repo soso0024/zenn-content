@@ -11,8 +11,6 @@ published: true
 
 今回は、LocalStack のインストール方法と、Local Stack で S3 を使用して静的ウェブサイトを作成する方法を紹介します。
 
-<!-- 後半の記事では，Terraform を使用して Infrastructure as Code で構築する方法を紹介します。 -->
-
 ## LocalStack とは
 
 - LocalStack は、AWS のクラウドサービスをローカル環境で再現できるテストツール
@@ -196,3 +194,5 @@ http://testwebsite.s3-website.localhost.localstack.cloud:4566/
 
 下記のような画面が表示されれば成功です。
 ![](/images/localstack-practice-01/static_web_contents.png)
+
+こちらの記事では，今回作成した静的ウェブサイトを Terraform を使用して Infrastructure as Code で構築する方法を紹介しています。
