@@ -13,6 +13,12 @@ published: true
 
 <!-- 後半の記事では，Terraform を使用して Infrastructure as Code で構築する方法を紹介します。 -->
 
+## LocalStack とは
+
+- LocalStack は、AWS のクラウドサービスをローカル環境で再現できるテストツール
+- S3 や Lambda などの AWS サービスを、実際の AWS 環境を使用せずにローカルでテスト可能
+- 開発コストの削減と、本番環境に影響を与えないテスト環境の構築が可能
+
 ## 環境構築
 
 今回は，macOS brew での環境構築を行います。
