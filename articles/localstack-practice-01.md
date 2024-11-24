@@ -196,3 +196,4 @@ http://testwebsite.s3-website.localhost.localstack.cloud:4566/
 ![](/images/localstack-practice-01/static_web_contents.png)
 
 こちらの記事では，今回作成した静的ウェブサイトを Terraform を使用して Infrastructure as Code で構築する方法を紹介しています。
+https://zenn.dev/nislab/articles/localstack-practice-02
