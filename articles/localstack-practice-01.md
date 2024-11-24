@@ -93,10 +93,11 @@ cd s3-static-website-localstack
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
   <head>
     <meta http-equiv="Content-Type" content="text/html" />
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>静的ウェブサイト</title>
   </head>
   <body>
@@ -111,13 +112,15 @@ S3 は HTTP 4XX エラーコードに対してのみ、`error.html` のファイ
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <title>404</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - ページが見つかりません</title>
   </head>
   <body>
-    <p>何かがおかしいのだ</p>
+    <p>お探しのページは見つかりませんでした。</p>
+    <p><a href="/">トップページに戻る</a></p>
   </body>
 </html>
 ```
@@ -164,6 +167,8 @@ awslocal s3api put-bucket-policy --bucket testwebsite --policy file://bucket_pol
 ```
 
 ### 4. ポリシーが添付されたので、ルートディレクトリの内容をバケットに同期する
+
+`sync` コマンドは、ディレクトリと S3 バケット間の同期に使用されます。
 
 ```bash
 awslocal s3 sync ./ s3://testwebsite
