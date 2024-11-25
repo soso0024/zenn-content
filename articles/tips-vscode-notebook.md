@@ -1,12 +1,12 @@
 ---
-title: "VSCode - Format Notebook"
+title: "VSCode でノートブック(.ipynb)を使う際に，オートフォーマットの設定を適応する方法"
 emoji: "🆚"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vscode", "notebook", "python", "jupyter", "ipynb"]
 published: true
 ---
 
-vscode でノートブック(.ipynb)を使う際に，オートフォーマットの設定を適応する方法について説明します．
+VSCode でノートブック(.ipynb)を使う際に，オートフォーマットの設定を適応する方法について説明します．
 
 1. 設定を開く
    - `Ctrl + ,` で設定を開く(Mac の場合は `Cmd + ,`)
