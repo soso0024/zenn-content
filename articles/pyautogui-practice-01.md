@@ -14,6 +14,9 @@ published: true
 ⚠️：動画のサイズ上，圧縮してデモ動画を掲載しているので，動きが遅いですが，実際の動作はもっと速いです。
 ![](/images/pyautogui-practice-01/study_bgm.gif)
 
+こちらのリポジトリに，スムーズな動画を掲載しています。
+https://github.com/soso0024/pyautogui-practice
+
 ## PyAutoGUI とは
 
 - PyAutoGUI は，Python で GUI 操作を自動化するためのライブラリ
