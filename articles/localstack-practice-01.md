@@ -39,6 +39,9 @@ localstack --version
 ### 2. 個人認証トークンの設定
 
 LocalStack は、LocalStack ライセンスへのアクセスや、ワークスペース内での認証に個人認証トークンを使用します。
+Auth Token の取得には、LocalStack のアカウント登録が必要です。
+[こちら](https://www.localstack.cloud/)からアカウント登録を行ってください。
+登録後，左端のサイドバーから`Workspace`を選択し，`Auth Tokens`を選択すると，個人認証トークンが表示されます。
 
 ```bash
 export LOCALSTACK_AUTH_TOKEN="YourAuthToken"
