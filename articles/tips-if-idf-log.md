@@ -3,12 +3,17 @@ title: "TF-IDFにおけるDF（文書頻度: Document Frequency)の対数を取�
 emoji: "🫠"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["TF-IDF", "自然言語処理", "情報検索"]
+publication_name: nislab
 published: true
 ---
 
 ## TL;DR
 
 TF-IDF における DF（文書頻度: Document Frequency) の対数を取る理由について気になって調べたので、その理由をまとめました。
+
+## 私たちの研究室
+
+https://nisk.doshisha.ac.jp/
 
 ## 1. TF-IDF の基本的な目的
 
