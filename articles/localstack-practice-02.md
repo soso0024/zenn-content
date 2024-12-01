@@ -15,6 +15,10 @@ https://zenn.dev/nislab/articles/localstack-practice-01
 
 前回の記事で作成した，静的ウェブサイトを Terraform を使用して Infrastructure as Code で構築する方法を紹介します。
 
+## 私たちの研究室
+
+https://nisk.doshisha.ac.jp/
+
 ## Terraform とは
 
 - インフラストラクチャをコードとして管理（IaC）するツール

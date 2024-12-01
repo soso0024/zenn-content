@@ -11,6 +11,10 @@ published: true
 
 今回は、LocalStack のインストール方法と、Local Stack で S3 を使用して静的ウェブサイトを作成する方法を紹介します。
 
+## 私たちの研究室
+
+https://nisk.doshisha.ac.jp/
+
 ## LocalStack とは
 
 - LocalStack は、AWS のクラウドサービスをローカル環境で再現できるテストツール
