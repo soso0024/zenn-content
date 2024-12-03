@@ -11,9 +11,13 @@ published: true
 
 TF-IDF における DF（文書頻度: Document Frequency) の対数を取る理由について気になって調べたので、その理由をまとめました。
 
-## 私たちの研究室
+## 私たちの研究室(NISLab)
 
 https://nisk.doshisha.ac.jp/
+
+## アドベントカレンダー 2日目~
+
+https://nislab-advent-calendar-2024-12.vercel.app/
 
 ## 1. TF-IDF の基本的な目的
 
