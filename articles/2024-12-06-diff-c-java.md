@@ -2,8 +2,8 @@
 title: "なぜJavaのコードをASTに変換するのか"
 emoji: "🤔"
 type: "idea" # tech: 技術記事 / idea: アイデア
-topics: []
-published: false
+topics: ["java", "c", "python", "ast"]
+published: true
 ---
 
 ## TL;DR
