@@ -15,7 +15,7 @@ published: true
 
 ## もう少し詳しく
 
-一応，`bash_profile` についても記述しておきます。
+一応，`bash_profile` についても簡単に記述しておきます。
 macOS `Catalina` 以降では，デフォルトのシェルが `zsh` に変更されたみたいです。
 https://mykii.blog/what-is-shell-bash-and-zsh/
 
@@ -27,5 +27,5 @@ https://mykii.blog/what-is-shell-bash-and-zsh/
 
 ## 最後に
 
-`export` などの環境変数を設定する際には，`.zprofile` に書くことが多いイメージです。
-`.zshrc` に書いてもいいのですが，シェルが起動するたびに実行されるため，シェルの起動が遅くなる可能性があるので注意してください。
+`export` などの環境変数を設定する際には，`.zprofile` に書くことが多いイメージです 🤔
+`.zshrc` に書いてもいいのですが，シェルが起動するたびに実行されるため，シェルの起動が遅くなる可能性があるので注意してください ⚠️
