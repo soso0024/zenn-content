@@ -6,7 +6,7 @@ topics: ["ollama", "deepseek", "deepseek r1", "cline", "ssd"]
 published: true
 ---
 
-Ollama を使用して DeepSeek R1 モデルをローカル環境で使用する際に，パソコンのストレージ容量が不足していて，モデルを SSD に保存して使用する必要があったので，その方法を備忘録としてまとめました．
+Ollama を使用して [DeepSeek R1 モデル](https://ollama.com/library/deepseek-r1)をローカル環境で使用する際に，パソコンのストレージ容量が不足していて，モデルを SSD に保存して使用する必要があったので，その方法を備忘録としてまとめました．
 
 ## TD;LR
 
