@@ -64,6 +64,15 @@ ln -s "/Volumes/MySSD/Ollama/manifests" ~/.ollama/models/manifests
 ls -l ~/.ollama/models
 ```
 
+### 動作確認
+
+`ollama run deepseek-r1:7b`を実行して動作していることが確認できたら，終了です！
+
+:::message
+`deepseek-r1:7b` は DeepSeek R1 モデルのバージョンを指定しています．
+自分の使用しているバージョンに合わせて変更してください！
+:::
+
 ## 最後に
 
 今回私がローカル環境で DeepSeek R1 モデルを使用するきっかけとなったのは [Cline](https://cline.bot/) で使用するためです．
