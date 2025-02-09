@@ -30,6 +30,7 @@ mkdir /Volumes/MySSD/Ollama
 ### 2. モデルの情報を SSD に保存
 
 すでに，`ollama pull` でモデルをダウンロードしている場合は，`~/.ollama/models` にモデルが保存されている．
+https://github.com/ollama/ollama/blob/main/docs/faq.md#where-are-models-stored
 下記のコマンドを実行して，`blobs` と `manifests` フォルダを SSD に移動する．
 
 ```bash
