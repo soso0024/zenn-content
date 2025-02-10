@@ -2,7 +2,7 @@
 title: "DeepSeek R1モデルをSSDに保存して使う方法"
 emoji: "🐳"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["Ollama", "DeepSeek", "DeepDeek-R1", "Cline", "SSD"]
+topics: ["Ollama", "DeepSeek", "DeepSeek-R1", "Cline", "SSD"]
 published: true
 ---
 
