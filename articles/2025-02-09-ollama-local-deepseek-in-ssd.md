@@ -39,7 +39,7 @@ mv ~/.ollama/models/blobs /Volumes/MySSD/Ollama/
 mv ~/.ollama/models/manifests /Volumes/MySSD/Ollama/
 ```
 
-:::details Ollama のインストールがまだの場合
+:::details Ollama のインストール，DeepSeek R1 モデルのダウンロード
 Ollama のインストールは下記から！
 
 - 公式サイト
@@ -47,7 +47,20 @@ Ollama のインストールは下記から！
 
 - brew でインストールする場合
   https://formulae.brew.sh/formula/ollama
+
+Ollama を使用した DeepSeek R1 モデルのダウンロードは下記から！
+
+- https://dev.to/extinctsion/how-run-deepseek-locally-with-ollama-4kbd
   :::
+
+:::details DeepSeek R1 モデルサイズと推奨されるハードウェアのスペック
+| MODEL | RAM NEEDED | RECOMMENDED GPU |
+| ----- | ---------- | --------------- |
+| 1.5B | 4GB | Integrated |
+| 7B | 8–10GB | NVIDIA GTX 1660 |
+| 14B | 16GB+ | RTX 3060/3080 |
+| 70B | 40GB+ | RTX 4090/A100 |
+:::
 
 ### 3. リンクを作成する
 
