@@ -3,7 +3,7 @@ title: "久しぶりのC問題，なんとか解けた"
 emoji: "🫠"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["atcoder", "python", "C問題"]
-published: true
+published: false
 ---
 
 今回は，AtCoder Beginner Contest 377 C 問題を解いた際のメモを残しておきます．

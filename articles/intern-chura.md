@@ -1,12 +1,12 @@
 ---
-title: "Internship Memo 01"
+title: "インターンシップ振り返り"
 emoji: "✨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [aws, snowflake, terraform, dbt]
 published: true
 ---
 
-インターンシップで学んだことについてまとめます．
+## 学んだこと
 
 - データサイエンスプロジェクトむっずかしい
   - 成功を妨げる要員 - 高品質なデータが不可欠 - データインフラが不可欠
@@ -23,7 +23,7 @@ published: true
 - DataWarehouse : データを集めて、一箇所に集約、分析しやすく
   - データインジェスト：DataWarehouse へのデータ投入
 
-### 使用したテックスタック
+## 使用したテックスタック
 
 - クラウドプラットフォーム：AWS
   - Amazon のクラウドサービス
@@ -41,7 +41,7 @@ published: true
 
   - データ変換の結果をグラフなどを使って可視化
 
-### 構築したアーキテクチャ図
+## 構築したアーキテクチャ図
 
 ![](/images/intern-chura/architecture.png)
 
@@ -66,7 +66,7 @@ published: true
     - データ変換のプロセスをコードで管理可能
   - https://zenn.dev/dbt_tokyo/books/537de43829f3a0
 
-### なぜこの技術を使用したのか？
+## なぜこの技術を使用したのか？
 
 - Terraform
   - インフラストラクチャをコードとして管理することで、インフラの変更履歴を管理しやすくなる
@@ -77,6 +77,6 @@ published: true
   - SQL と比較すると，デメリットがないから
     ![](/images/intern-chura/dbt.png)
 
-### 別の方法は？
+<!-- ### 別の方法は？
 
-### 改善点は？
+### 改善点は？ -->

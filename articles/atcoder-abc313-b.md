@@ -3,7 +3,7 @@ title: "AtCoder - Who is Saikyo?"
 emoji: "✨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [atcoder, python]
-published: true
+published: false
 ---
 
 今回は，AtCoder Beginner Contest 313 B 問題を解いた際の考え方に関するメモを残しておきます．

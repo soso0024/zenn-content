@@ -3,7 +3,7 @@ title: "言語化能力身につけたい"
 emoji: "😗"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["AtCoder", "Python", "C問題"]
-published: true
+published: false
 ---
 
 今回は，Atcoder Beginner Contest 378 C 問題を解いた際のメモを残しておきます．

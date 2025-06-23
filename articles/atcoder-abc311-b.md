@@ -3,7 +3,7 @@ title: "AtCoder - Vacation Together"
 emoji: "✨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [atcoder, python]
-published: true
+published: false
 ---
 
 今回は，AtCoder Beginner Contest 311 B 問題を解いた際につまずいたポイントに関するメモを残しておきます．
