@@ -1,6 +1,6 @@
 ---
 title: "久しぶりのC問題，なんとか解けた"
-emoji: "🫠"
+emoji: "🐍"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["atcoder", "python", "C問題"]
 published: false

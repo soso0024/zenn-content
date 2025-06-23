@@ -1,6 +1,6 @@
 ---
 title: "継続して勉強しないとな"
-emoji: "🤣"
+emoji: "🐍"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["AtCoder", "Python", "B問題"]
 published: true

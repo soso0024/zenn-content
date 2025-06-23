@@ -1,6 +1,6 @@
 ---
 title: "ABC375のC問題を理解したい"
-emoji: "🧑‍💻"
+emoji: "🐍"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["AtCoder", "Python", "C問題"]
 published: true

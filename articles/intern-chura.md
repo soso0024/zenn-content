@@ -1,6 +1,6 @@
 ---
 title: "インターンシップ振り返り"
-emoji: "✨"
+emoji: "🐍"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [aws, snowflake, terraform, dbt]
 published: true

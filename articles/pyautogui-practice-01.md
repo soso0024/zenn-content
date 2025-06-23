@@ -1,6 +1,6 @@
 ---
 title: "PyAutoGUIでYouTubeのプレイリスト自動再生プログラム作ってみた"
-emoji: "📺"
+emoji: "🐍"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["python", "pyautogui", "youtube"]
 published: true

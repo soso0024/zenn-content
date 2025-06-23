@@ -3,7 +3,7 @@ title: "First Article"
 emoji: "🥇"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["memo"]
-published: true
+published: false
 ---
 
 ## 初めての記事

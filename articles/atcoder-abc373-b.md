@@ -1,6 +1,6 @@
 ---
 title: "深夜に簡単なB問題やろうとしたら，久しぶりで何もできなかった"
-emoji: "😭"
+emoji: "🐍"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["AtCoder", "Python", "B問題"]
 published: false
