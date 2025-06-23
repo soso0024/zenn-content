@@ -1,6 +1,6 @@
 ---
 title: "ClaudeのMCPとProjectを使用して研究プロセスを自動化してみた"
-emoji: "🤖"
+emoji: "🧌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["claude", "mcp", "research", "project"]
 publication_name: nislab

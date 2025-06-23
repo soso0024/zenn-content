@@ -1,6 +1,6 @@
 ---
 title: "コピペボタンだけで、Slackリマインド作成のWebサービスを作ってみた"
-emoji: "🐍"
+emoji: "🧌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["slack", "web", "ai", "claude", "reminder", "react", vercel]
 published: true

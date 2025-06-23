@@ -1,6 +1,6 @@
 ---
 title: "Claude MCP can't connect to SQLite MCP serve を解決する方法"
-emoji: "🤩"
+emoji: "🧌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Claude", "MCP", "SQLite"]
 published: true

@@ -1,6 +1,6 @@
 ---
 title: "TF-IDFにおけるDF（文書頻度: Document Frequency)の対数を取る理由"
-emoji: "🫠"
+emoji: "🧌"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["TF-IDF", "自然言語処理", "情報検索"]
 publication_name: nislab

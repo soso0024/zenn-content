@@ -1,6 +1,6 @@
 ---
 title: "Notionカレンダーの右側サイドバーを非表示にする"
-emoji: "📅"
+emoji: "🧌"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["notion", "calendar"]
 published: true

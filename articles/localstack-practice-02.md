@@ -1,6 +1,6 @@
 ---
 title: "Terraformを使用してインフラストラクチャの自動化"
-emoji: "🌍"
+emoji: "🧌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["aws", "localstack", "terraform", "infrastructure-as-code"]
 publication_name: nislab

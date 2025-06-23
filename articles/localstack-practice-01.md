@@ -1,6 +1,6 @@
 ---
 title: "LocalStackを使用して静的ウェブサイトを作成する"
-emoji: "🚀"
+emoji: "🧌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["aws", "localstack", "s3"]
 publication_name: nislab

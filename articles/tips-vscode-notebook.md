@@ -1,6 +1,6 @@
 ---
 title: "VSCode でノートブック(.ipynb)を使う際に，オートフォーマットの設定を適応する方法"
-emoji: "🆚"
+emoji: "🧌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vscode", "notebook", "python", "jupyter", "ipynb"]
 published: true

@@ -1,6 +1,6 @@
 ---
 title: ".zshrcと.zprofile って何が違うの？"
-emoji: "🐚"
+emoji: "🧌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["zsh", "bash", "shell"]
 published: true
