@@ -3,7 +3,7 @@ title: "Prepare for Huckson Internship"
 emoji: "✨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [internship, huckson, typescript]
-published: true
+published: false
 ---
 
 # TypeScript
