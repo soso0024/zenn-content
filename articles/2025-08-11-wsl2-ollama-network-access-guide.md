@@ -1,6 +1,6 @@
 ---
 title: "WSL2上のOllamaを同一ネットワークからアクセス可能にする完全ガイド"
-emoji: "🌐"
+emoji: "🧌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Ollama", "WSL2", "Windows", "ネットワーク", "ポートプロキシ"]
 published: false
