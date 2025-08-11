@@ -177,12 +177,33 @@ curl http://localhost:11434/api/version
 curl http://172.18.0.2:11434/api/version
 ```
 
+**実行結果例：**
+
+```bash
+$ curl http://localhost:11434/api/version
+{"version":"0.11.4"}
+
+$ curl http://172.18.0.2:11434/api/version
+{"version":"0.11.4"}
+```
+
 #### 他の PC からのテスト
 
 ```bash
 # 同一ネットワークの他のPCから
 curl http://192.0.2.10:11434/api/version
 ```
+
+**実行結果例：**
+
+```bash
+$ curl http://192.0.2.10:11434/api/version
+{"version":"0.11.4"}
+```
+
+:::message
+上記の例では Ollama のバージョン 0.11.4 が正常に返されています。こちらのような応答が得られれば、外部からのアクセスが成功しています。
+:::
 
 ## トラブルシューティング
 
