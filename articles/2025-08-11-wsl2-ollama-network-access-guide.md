@@ -3,7 +3,7 @@ title: "WSL2上のOllamaを同一ネットワークからアクセス可能に�
 emoji: "🧌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Ollama", "WSL2", "Windows", "ネットワーク", "ポートプロキシ"]
-published: false
+published: true
 ---
 
 WSL2 環境で Ollama をインストールして他のデバイスから同一ネットワーク経由でアクセスしようとした際に、ローカル PC では接続できるが他の PC から接続できないという問題に遭遇しました。この記事では、WSL と Windows 間のネットワーク分離という根本的な問題と、その解決方法について詳しく解説します。
@@ -85,6 +85,8 @@ hostname -I
 
 WSL 内で Ollama がすべてのインターフェースでリッスンするように設定します。
 
+#### 一時的な設定
+
 ```bash
 # 環境変数を設定
 export OLLAMA_HOST=0.0.0.0:11434
@@ -92,6 +94,57 @@ export OLLAMA_ORIGINS="*"
 
 # Ollamaを起動
 ollama serve
+```
+
+#### 永続的な設定（推奨）
+
+毎回環境変数を設定する手間を省くため、`.bashrc` ファイルに設定を追加できます：
+
+```bash
+# .bashrcファイルに追記
+echo 'export OLLAMA_HOST=0.0.0.0:11434' >> ~/.bashrc
+echo 'export OLLAMA_ORIGINS="*"' >> ~/.bashrc
+
+# 設定を即座に反映
+source ~/.bashrc
+
+# Ollamaを起動
+ollama serve
+```
+
+#### OLLAMA_ORIGINS のセキュリティ設定
+
+`OLLAMA_ORIGINS` はクロスオリジンリクエストを制御する重要なセキュリティ設定です：
+
+```bash
+# 開発環境：すべてのオリジンを許可（セキュリティリスクあり）
+export OLLAMA_ORIGINS="*"
+
+# 特定のネットワーク範囲のみ許可（推奨）
+export OLLAMA_ORIGINS="http://192.168.1.0/24"
+
+# 複数の特定IPアドレスを許可
+export OLLAMA_ORIGINS="http://192.168.1.100,http://192.168.1.101"
+
+# ワイルドカードを使用した範囲指定
+export OLLAMA_ORIGINS="http://192.168.1.*"
+```
+
+:::message alert
+**セキュリティに関する重要な注意**
+
+- `OLLAMA_ORIGINS="*"` は開発環境でのみ使用してください
+- 本番環境では必ず特定のネットワーク範囲や IP アドレスに制限してください
+- ファイアウォール設定と併用して多層防御を行ってください
+  :::
+
+**.bashrc への設定例（セキュリティを考慮）：**
+
+```bash
+# セキュアな設定例を.bashrcに追加
+echo 'export OLLAMA_HOST=0.0.0.0:11434' >> ~/.bashrc
+echo 'export OLLAMA_ORIGINS="http://192.168.1.*"' >> ~/.bashrc
+source ~/.bashrc
 ```
 
 ### 3. Windows ポートプロキシの設定
@@ -245,26 +298,6 @@ netsh interface portproxy add v4tov4 listenport=11434 listenaddress=0.0.0.0 conn
    ```
 
 ## 重要な注意点
-
-### セキュリティ設定
-
-外部アクセスを許可する場合は、適切なセキュリティ設定を行ってください：
-
-```bash
-# 特定のオリジンのみ許可する場合（実際のネットワークアドレスを使用）
-export OLLAMA_ORIGINS="http://192.168.1.0/24"  # 例：実際のローカルネットワーク
-
-# 開発環境でのみすべて許可（本番環境では推奨しません）
-export OLLAMA_ORIGINS="*"
-```
-
-:::message alert
-**セキュリティリスク**
-
-- `OLLAMA_ORIGINS="*"` は開発環境でのみ使用してください
-- 本番環境では必ず特定のネットワーク範囲に制限してください
-- ファイアウォール設定と併用して多層防御を行ってください
-  :::
 
 ### IP アドレスの管理
 
